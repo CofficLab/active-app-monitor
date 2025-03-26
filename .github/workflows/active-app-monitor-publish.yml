@@ -95,7 +95,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          git add packages/active-app-monitor/package.json
+          git add package.json
           git commit -m "chore(active-app-monitor): bump version to ${{ steps.version.outputs.new_version }}"
           git tag "active-app-monitor-v${{ steps.version.outputs.new_version }}"
           git push
@@ -119,7 +119,6 @@ jobs:
 
       - name: Publish to npm
         run: |
-          cd packages/active-app-monitor
-          pnpm publish --no-git-checks --access public
+          pnpm publish --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
