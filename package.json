@@ -25,12 +25,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CofficLab/GitOK.git"
+    "url": "git+https://github.com/CofficLab/active-app-monitor.git"
   },
   "bugs": {
-    "url": "https://github.com/CofficLab/GitOK/issues"
+    "url": "https://github.com/CofficLab/active-app-monitor/issues"
   },
-  "homepage": "https://github.com/CofficLab/GitOK/tree/main/packages/active-app-monitor#readme",
+  "homepage": "https://github.com/CofficLab/active-app-monitor/tree/main#readme",
   "os": [
     "darwin"
   ],
